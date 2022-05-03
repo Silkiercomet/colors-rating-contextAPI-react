@@ -10,7 +10,7 @@ while props drilling is like if the information is using the highway going throu
 
 ### whats is the context API
 
-contexts allow us to create an individual space in our app that contains all the states and interaction related to this states in a separate space in our app, which we can acces to in any Provided part of our application
+contexts allow us to create an individual space in our app that contains all the states and interaction related to this states in a separate space in our app, which we can access to in any Provided part of our application
 
 ### how i make context work
 
