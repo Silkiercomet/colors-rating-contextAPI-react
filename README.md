@@ -55,15 +55,15 @@ export default function App() {
 }
 ```
 
-- now we can access all the values of our provider in any component that a child of the ColorProvider component thanks to the use of the hook "useContext("ColorContext")" we can acces to the context that the components are suscribed to
+- now we can access all the values of our provider in any component that a child of the ColorProvider component thanks to the use of the hook "useContext("ColorContext")" we can access to the context that the components are suscribed to
 
-* because in this app the subscriber is being exported by default we dont use curly braces wen we call the context (but we do need then for the provider)
+* because in this app the subscriber is being exported by default we dont use curly braces wen we call the subscriber (but we do need then for the provider)
 
 ```js
 import ColorContext from "../context/ColorContext";
 ```
 
-but we can avoid to access the subscriber from every component by creating a custom hook who does it, that why i created useColor, to hace access to the subscriber without exposing it
+but we can avoid to access the subscriber from every component by creating a custom hook who does it, that why i created useColor, to access to the subscriber without exposing it
 
 ```js
 import { useContext } from "react";
