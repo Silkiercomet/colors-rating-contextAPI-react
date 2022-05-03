@@ -4,13 +4,13 @@ the porpuse of this app was to practice some of the react features, primarily co
 
 ## Context API
 
-the first version of this [simple app](https://codesandbox.io/s/colors-n4r34i?file=/src/Color.js) i used prop drilling to hidratated the components, i put all the states and functions in the parent component relative to all the childs, this worked but proved to be messy, even difficult to understand for me after drilling more than 3 levels, this looked like a good application to practice the context API, whose purpose is to avoid the prop drilling and acces directly to a space in your app where all the states and functions are being hold
+the first version of this [simple app](https://codesandbox.io/s/colors-n4r34i?file=/src/Color.js) i used prop drilling to hidratated the components, i put all the states and functions in the parent component relative to all the childs, this worked but proved to be messy, even difficult to understand for me after drilling more than 3 levels, this looked like a good application to practice the context API, whose purpose is to avoid the prop drilling and access directly to a space in your app where all the states and functions are being hold
 
 while props drilling is like if the information is using the highway going through town to town until reaching the delivery point the context api works more like a plane, that goes directly to the desired destiny
 
 ### whats is the context API
 
-contexts allow us to create a individual space in our app that contains all the states and interaction related to this states in a separate space in our app, which we can acces to in any Provided part of our application
+contexts allow us to create an individual space in our app that contains all the states and interaction related to this states in a separate space in our app, which we can acces to in any Provided part of our application
 
 ### how i make context work
 
